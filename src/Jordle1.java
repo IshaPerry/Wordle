@@ -244,7 +244,7 @@ public class Jordle1 extends Application {
 
     public static ArrayList<String> createList() throws IOException {
         try {
-            File file = new File("/Users/ishaperry/Library/CloudStorage/OneDrive-GeorgiaInstituteofTechnology/CS_1331/Jordle1/words.txt");
+            File file = new File("/yourlocalpath/words.txt");
             Scanner sc = new Scanner(file);
             while (sc.hasNextLine()) {
                 String line = sc.nextLine();
